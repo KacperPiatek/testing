@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: my-sql
-    repoURL: oci://registry-1.docker.io/bitnamicharts/mysql
+    repoURL: registry-1.docker.io/bitnamicharts/mysql
     targertVersion: 9.10.8
     helm:
       releaseName: my-mysql
