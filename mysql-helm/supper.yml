@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: helm-mysql
+  namespace: argocd
+spec:
+  project: default
+  source:
+    chart: my-sql
+    repoURL: https://charts.bitnami.com/bitnami
+    targertVersion: 9.10.8
+    helm:
+      releaseName: my-mysql
+  destination: "https://kubernetes.default.svc)"
+  namespace: dupa
