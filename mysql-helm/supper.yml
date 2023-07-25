@@ -11,5 +11,5 @@ spec:
     targertVersion: 9.10.8
     helm:
       releaseName: my-mysql
-  destination: "https://kubernetes.default.svc)"
+  destination: "https://kubernetes.default.svc"
   namespace: dupa
