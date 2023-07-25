@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    chart: my-sql
-    repoURL: registry-1.docker.io/bitnamicharts/mysql
-    targertVersion: 9.10.8
+    chart: bitnami/mysql
+    repoURL: https://charts.bitnami.com/bitnami
+    targetRevision: 9.10.8
     helm:
       releaseName: my-mysql
   destination: 
